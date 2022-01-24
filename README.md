@@ -18,3 +18,12 @@ URL do curso -> [Python 3 - Parte 2 - Avançando na Linguagem](https://cursos.al
 ## 01 - Preparando o Jogo da Forca
 
 ### 01 - Game Loop
+* A palavra chave `not` significa negação no python, invertendo valores **bool** por exemplo.
+
+## 02 - Manipulando Strings
+
+### 01 - Encontrando Letras
+* A função `find()` presente nas **strings** retorna o *index* do caractere passado por parâmetro na função.
+* É possível iterar sobre **string** utilizando o laço **for**.
+
+### 02 - Funções Importantes da String

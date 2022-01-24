@@ -8,9 +8,18 @@ def play_hangman():
 
     hanged = False
     win = False
-    # The "not" inverts the boolean value of a variable
     while not hanged and not win:
         print("Playing...")
+
+        kick = input("Write a letter: ")
+
+        index = 0
+        for letter in secret_word:
+            if kick == letter:
+                print(kick)
+                print("Letter {} found in the index {}".format(letter, index))
+
+            index += 1
 
     print("Game Over")
 
