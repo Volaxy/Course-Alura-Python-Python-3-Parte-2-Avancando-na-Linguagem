@@ -62,3 +62,11 @@ line = [p1, p2, p3]
 * Um **set** não pode conter elementos duplicados.
 * Como declarar um **dicionary**.
 * Um **dictionary** é um conjunto **chave : valor**, em que o *index* é procurado pela **chave** para acessar o **valor**.
+
+## 05 - Implementando o Encerramento do Jogo
+
+### 01 - Estipulando Tentativas de Erros
+* Como parar um loop com a palavra reservada **break**.
+
+### 02 - Compreensão de Lista
+* É possível inicializar o conteúdo de uma **lista** dentro dos `[]`, como por exemplo: `correct_letters = ["_" for letter in secret_word]`, essa funcionalidade se chama ***List Comprehension***.
