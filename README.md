@@ -40,3 +40,25 @@ URL do curso -> [Python 3 - Parte 2 - Avançando na Linguagem](https://cursos.al
 ### 02 - Guardando as Letras Acertadas
 * Como substituir um valor de uma **lista**.
 * Como imprimir uma **lista** passando ela como parâmetro para o `print()`.
+
+## 04 - Conhecendo e Trabalhando com Tuplas
+
+### 01 - O que são Tuplas
+* Uma **Tupla** é uma lista que não pode ser alterada.
+* Para declarar uma **Tupla**, basta colocar os valores entre `()`, `days = ("Monday", "third", ...)`.
+
+### 02 - Listas e Tuplas Juntas
+* É possível criar uma **lista** de **tuplas**, como:
+```
+p1 = (1, 2)
+p2 = (3, 4)
+p3 = (5, 6)
+line = [p1, p2, p3]
+"[(1, 2), (3, 4), (5, 6)]"
+```
+* A função `tuple()` recebe um conjunto de elementos e retorna uma **tupla**.
+* A função `list()` recebe um conjunto de elementos e retorna uma **lista**.
+* Como declarar um **set**.
+* Um **set** não pode conter elementos duplicados.
+* Como declarar um **dicionary**.
+* Um **dictionary** é um conjunto **chave : valor**, em que o *index* é procurado pela **chave** para acessar o **valor**.
