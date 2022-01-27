@@ -70,3 +70,21 @@ line = [p1, p2, p3]
 
 ### 02 - Compreensão de Lista
 * É possível inicializar o conteúdo de uma **lista** dentro dos `[]`, como por exemplo: `correct_letters = ["_" for letter in secret_word]`, essa funcionalidade se chama ***List Comprehension***.
+* Para filtrar um resultado de um `for` e coloca-lo dentro de uma **lista**, usamos a sintaxe `pairs = [number for number in integers if number % 2 == 0]`, onde o filtro `if` é colocado logo após o `for`.
+
+## 06 - Escrita e Leitura de Arquivos
+
+### 01 - Escrevendo em um Arquivo
+* Abrir um **arquivo** com o comando `open()` passando:
+    * O nome do **arquivo** como parâmetro.
+    * O modo que o **arquivo** deve ser lido, como por exemplo, leitura (`"r"`) ou escrita (`"w"`).
+* Ao usar o comando `open()`, ele irá apagar o **arquivo** caso ele exista no diretório, para somente *adicionar* conteúdo, na passagem do 2º parâmetro, se usa o `"a"`.
+* A função `FILE.write("banana")` escreve algo no **arquivo** e retorna o número de caracteres que foram adicionados no arquivo.
+* A função `FILE.close()` fecha a conexão do **arquivo** entre o computador e o **Python**.
+
+### 02 - Lendo um Arquivo
+* Ler um **arquivo** utilizando o comando `read()`.
+* Ler uma linha usando `readLine()`.
+
+### 03 - Escolhendo uma Palavra
+* Escolher aleatoriamente um valor com a função `random.randrange()` onde o primeiro parâmetro é o valor inicial e o segundo parâmetro é o valor final.
